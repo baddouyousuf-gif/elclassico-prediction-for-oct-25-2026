@@ -1,4 +1,4 @@
-# ⚽ El Clásico Forecast: Barcelona vs Real Madrid
+# El Clásico Forecast: Barcelona vs Real Madrid
 
 **LaLiga Matchday 10 · Spotify Camp Nou · Sunday 25 October 2026**
 
@@ -44,7 +44,7 @@ Numbers only go so far, so I spent most of the research time on context: match r
 - **The Vinícius situation.** Mourinho benched him against Villarreal to "protect" him after a slow start (1 goal, 3 assists in 11 games). He came on at half-time, had a goal disallowed for pulling an opponent's hair, and was sent off. He's now serving a **4-match ban** and misses this game.
 - **Weaknesses:** no away clean sheet this season, and no clean sheet in their last **12** Clásicos.
 
-### 🗣️ What the experts say
+### What the experts say (Pundits)
 - **13 of 16 pundits pick Barça, 3 pick a draw, and none pick Madrid.**
 - **Troy Deeney (CBS Golazo):** *"It is impossible for them to beat Barcelona... a team full of individuals against the best team."*
 - **Jamie Carragher:** says Madrid *"could well lose to Barcelona and then lose the La Liga title."*
@@ -53,7 +53,7 @@ Numbers only go so far, so I spent most of the research time on context: match r
 
 ---
 
-## ⏱️ The minute-by-minute analysis
+## The minute-by-minute analysis
 
 This is the part I'm proudest of. Instead of only asking "who's better?", the model asks **when** each team is dangerous, **how they react** to the score, and **what changes when the substitutes come on**.
 
@@ -109,7 +109,7 @@ The simulation can be started from any minute and any score, which turns it into
 
 ---
 
-## 🧮 How the model works
+## How the model works
 
 ```mermaid
 flowchart LR
@@ -138,7 +138,7 @@ flowchart LR
 
 ---
 
-## 📁 Repo structure
+## Repo structure
 ```
 ├── El_Clasico_Forecast_Report.html   # full report, charts embedded
 ├── data/
@@ -158,7 +158,7 @@ flowchart LR
 └── outputs/                          # results.json, in-play scenarios, charts
 ```
 
-## ▶️ Run it yourself
+## Run it yourself
 ```bash
 pip install numpy scipy pandas matplotlib
 cd model
@@ -166,7 +166,7 @@ python clasico_model_v2.py && python charts.py && python build_report.py
 ```
 When the confirmed line-ups come out, tweak `SHOCKS` at the top of `clasico_model_v2.py` and re-run.
 
-## ⚠️ Limitations
+## Limitations
 - **Small samples:** 12 matches per team. A few goal minutes and substitution times are approximate and flagged in the data.
 - **Judgment calls:** Champions League opponent strengths, home advantage and the injury shocks are my estimates. The report includes a sensitivity table showing how much each one matters.
 - **Not covered:** TikTok and Instagram creator predictions weren't included.
