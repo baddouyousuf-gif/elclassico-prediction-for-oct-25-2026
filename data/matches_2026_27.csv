@@ -1,0 +1,25 @@
+match_id,team,date,competition,opponent,venue,gf,ga,red_cards,notes
+B01,Barcelona,2026-08-23,LaLiga,Elche,A,5,0,,Gordon off bench 65' assisted 2
+B02,Barcelona,2026-08-27,LaLiga,Athletic Club,H,2,0,,Rodri debut off bench ~61'
+B03,Barcelona,2026-08-31,LaLiga,Rayo Vallecano,H,5,2,,Came from 0-1 down
+B04,Barcelona,2026-09-06,LaLiga,Valencia,A,5,0,,74% possession; shots 25-3
+B05,Barcelona,2026-09-09,UCL,Feyenoord,H,5,1,,
+B06,Barcelona,2026-09-13,LaLiga,Levante,A,4,2,,Led 3-0; conceded 78' and 88'
+B07,Barcelona,2026-09-16,LaLiga,Racing Santander,H,7,2,,Joan Garcia off injured at HT; several minutes approximate
+B08,Barcelona,2026-09-19,LaLiga,Sevilla,A,3,1,,Raphinha hat-trick; came from 0-1 down
+B09,Barcelona,2026-10-10,LaLiga,Getafe,H,3,0,,Raphinha absent (hamstring)
+B10,Barcelona,2026-10-13,UCL,Galatasaray,A,4,1,,Came from 0-1 down
+B11,Barcelona,2026-10-17,LaLiga,Real Betis,A,5,2,opp 54' (Facundo Bernal),
+B12,Barcelona,2026-10-20,UCL,Paris Saint-Germain,A,2,4,,First defeat; conceded 81' and 86'; Olmo injured 25'
+R01,Real Madrid,2026-08-22,LaLiga,Espanyol,A,2,1,,xG 0.26 vs 0.48; Espi winner 90+1 off bench
+R02,Real Madrid,2026-08-26,LaLiga,Real Sociedad,H,4,1,,Mbappe hat-trick
+R03,Real Madrid,2026-08-30,LaLiga,Malaga,H,4,0,,
+R04,Real Madrid,2026-09-04,LaLiga,Real Betis,A,0,1,,Mbappe penalty saved in stoppage time
+R05,Real Madrid,2026-09-08,UCL,Inter,H,2,1,,36% possession; Inter 11 corners
+R06,Real Madrid,2026-09-12,LaLiga,Rayo Vallecano,H,4,1,,
+R07,Real Madrid,2026-09-15,LaLiga,Elche,A,3,2,,Blew 2-0 lead; Espi winner 90+1 off bench
+R08,Real Madrid,2026-09-20,LaLiga,Atletico Madrid,A,1,2,own ~52' (Huijsen),Penalty + red early 2H
+R09,Real Madrid,2026-10-10,LaLiga,Villarreal,H,1,0,own ~73' (Vinicius),Vinicius benched then sent off -> 4-match ban
+R10,Real Madrid,2026-10-14,UCL,Roma,A,4,3,,3-1 down at 58'; three goals 83'-89' from corners/subs
+R11,Real Madrid,2026-10-18,LaLiga,Sevilla,H,4,1,,Vinicius suspended; several minutes approximate
+R12,Real Madrid,2026-10-21,UCL,RB Leipzig,H,4,1,,Diomande off bench scored 87'

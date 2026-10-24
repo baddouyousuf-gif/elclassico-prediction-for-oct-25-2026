@@ -1,0 +1,113 @@
+match_id,team,minute,side,scorer,scorer_off_bench,minute_approx,note
+B01,Barcelona,14,for,Raphinha,0,0,penalty
+B01,Barcelona,45,for,Karim Adeyemi,0,0,45+3 first-half stoppage (coded 45)
+B01,Barcelona,67,for,Raphinha,0,0,assist Gordon (sub 65')
+B01,Barcelona,71,for,Fermin Lopez,0,0,assist Gordon (sub 65')
+B01,Barcelona,79,for,Fermin Lopez,0,0,
+B02,Barcelona,37,for,Raphinha,0,0,
+B02,Barcelona,81,for,Fermin Lopez,0,0,
+B03,Barcelona,12,against,Sergio Camello,0,0,
+B03,Barcelona,19,for,Raphinha,0,0,
+B03,Barcelona,21,for,Lamine Yamal,0,0,
+B03,Barcelona,51,for,Own goal (Lejeune),0,0,
+B03,Barcelona,59,against,Sergio Camello,0,0,
+B03,Barcelona,71,for,Raphinha,0,0,
+B03,Barcelona,90,for,Lamine Yamal,0,0,
+B04,Barcelona,6,for,Lamine Yamal,0,0,
+B04,Barcelona,22,for,Fermin Lopez,0,0,
+B04,Barcelona,50,for,Raphinha,0,0,
+B04,Barcelona,79,for,Pedri,0,0,
+B04,Barcelona,84,for,Lamine Yamal,0,0,
+B05,Barcelona,3,for,Raphinha,0,0,
+B05,Barcelona,22,for,Karim Adeyemi,0,0,
+B05,Barcelona,57,for,Raphinha,0,0,
+B05,Barcelona,77,for,Lamine Yamal,0,0,free kick
+B05,Barcelona,82,against,Sem Steijn,0,0,
+B05,Barcelona,85,for,Gabriel Jesus,,0,bench status unknown
+B06,Barcelona,5,for,Xavi Espart,0,0,
+B06,Barcelona,19,for,Lamine Yamal,0,0,
+B06,Barcelona,48,for,Lamine Yamal,0,0,penalty
+B06,Barcelona,78,against,Ivan Romero,1,0,Levante sub 59'
+B06,Barcelona,88,against,Roger Brugue,0,0,
+B06,Barcelona,92,for,Karim Adeyemi,1,0,sub 66'
+B07,Barcelona,8,for,Joao Cancelo,0,0,
+B07,Barcelona,20,for,Raphinha,0,1,penalty; minute approx
+B07,Barcelona,30,against,Maguette Gueye,0,1,
+B07,Barcelona,36,for,Joao Cancelo,0,1,
+B07,Barcelona,43,for,Raphinha,0,1,
+B07,Barcelona,50,against,Yassir Zabiri,0,1,Szczesny error
+B07,Barcelona,65,for,Raphinha,0,1,penalty
+B07,Barcelona,79,for,Gabriel Jesus,,1,bench status unknown
+B07,Barcelona,88,for,Lamine Yamal,0,1,
+B08,Barcelona,19,against,Youssouf Fofana,0,0,
+B08,Barcelona,22,for,Raphinha,0,0,
+B08,Barcelona,52,for,Raphinha,0,0,
+B08,Barcelona,69,for,Raphinha,0,0,
+B09,Barcelona,2,for,Anthony Gordon,0,0,
+B09,Barcelona,30,for,Gabriel Jesus,0,0,
+B09,Barcelona,75,for,Jules Kounde,0,1,"""about 15 minutes left"""
+B10,Barcelona,28,against,Aleksey Batrakov,0,0,
+B10,Barcelona,42,for,Joao Cancelo,0,0,
+B10,Barcelona,50,for,Fermin Lopez,0,0,
+B10,Barcelona,53,for,Anthony Gordon,0,0,
+B10,Barcelona,65,for,Karim Adeyemi,1,0,sub 58'
+B11,Barcelona,10,for,Lamine Yamal,0,0,
+B11,Barcelona,27,against,Valentin Gomez,0,0,
+B11,Barcelona,41,for,Rodri,0,0,
+B11,Barcelona,51,for,Gabriel Jesus,0,0,
+B11,Barcelona,53,against,Abde Ezzalzouli,0,0,
+B11,Barcelona,63,for,Eric Garcia,1,0,sub 46'
+B11,Barcelona,82,for,Dani Olmo,1,0,sub 61'
+B12,Barcelona,38,against,Desire Doue,0,0,
+B12,Barcelona,55,for,Xavi Espart,0,0,
+B12,Barcelona,72,against,Lucas Hernandez,0,0,corner header
+B12,Barcelona,79,for,Lamine Yamal,0,0,
+B12,Barcelona,81,against,Vitinha,0,0,long range
+B12,Barcelona,86,against,Fabian Ruiz,0,0,
+R01,Real Madrid,10,for,Jude Bellingham,0,0,
+R01,Real Madrid,30,against,Alex Calatrava,0,0,
+R01,Real Madrid,91,for,Carlos Espi,1,0,sub 80'
+R02,Real Madrid,40,for,Kylian Mbappe,0,0,
+R02,Real Madrid,44,against,Luka Sucic,0,0,
+R02,Real Madrid,60,for,Kylian Mbappe,0,0,
+R02,Real Madrid,68,for,Vinicius Junior,0,0,
+R02,Real Madrid,80,for,Kylian Mbappe,0,0,
+R03,Real Madrid,19,for,Jude Bellingham,0,0,
+R03,Real Madrid,26,for,Own goal (Herrero),0,0,
+R03,Real Madrid,30,for,Kylian Mbappe,0,0,
+R03,Real Madrid,91,for,Arda Guler,1,0,sub 87'
+R04,Real Madrid,81,against,Troy Parrott,1,0,Betis sub 68'
+R05,Real Madrid,14,for,Kylian Mbappe,0,0,
+R05,Real Madrid,23,for,Federico Valverde,0,0,
+R05,Real Madrid,78,against,Carlos Augusto,0,0,
+R06,Real Madrid,14,for,Kylian Mbappe,0,0,penalty
+R06,Real Madrid,17,for,Alvaro Carreras,0,0,
+R06,Real Madrid,35,for,Jude Bellingham,0,0,
+R06,Real Madrid,51,against,Sergio Camello,0,0,
+R06,Real Madrid,91,for,Kylian Mbappe,0,0,
+R07,Real Madrid,25,for,Own goal (Dituro),0,0,Guler free kick
+R07,Real Madrid,33,for,Kylian Mbappe,0,0,
+R07,Real Madrid,71,against,Abiel Osorio,0,0,header
+R07,Real Madrid,83,against,Fer Nino,0,0,Cucurella error
+R07,Real Madrid,91,for,Carlos Espi,1,0,
+R08,Real Madrid,53,against,Alejandro Grimaldo,0,0,penalty after Huijsen red
+R08,Real Madrid,59,against,Jonathan David,0,0,
+R08,Real Madrid,89,for,Antonio Rudiger,0,0,set piece header
+R09,Real Madrid,64,for,Yan Diomande,0,0,
+R10,Real Madrid,20,against,Marten de Roon,0,1,
+R10,Real Madrid,25,for,Kylian Mbappe,0,0,
+R10,Real Madrid,51,against,Donyell Malen,0,1,
+R10,Real Madrid,58,against,Donyell Malen,0,0,
+R10,Real Madrid,83,for,Carlos Espi,1,0,from corner sequence
+R10,Real Madrid,87,for,Endrick,1,0,corner header; sub 59'
+R10,Real Madrid,89,for,Antonio Rudiger,0,0,from corner sequence
+R11,Real Madrid,30,for,Arda Guler,0,1,
+R11,Real Madrid,37,for,Kylian Mbappe,0,0,
+R11,Real Madrid,60,for,Kylian Mbappe,0,1,penalty; minute approx
+R11,Real Madrid,80,against,Manu Bueno,1,1,Sevilla sub
+R11,Real Madrid,82,for,Yan Diomande,0,1,
+R12,Real Madrid,43,for,Bernardo Silva,0,0,
+R12,Real Madrid,52,for,Arda Guler,0,0,
+R12,Real Madrid,83,for,Kylian Mbappe,0,0,
+R12,Real Madrid,85,against,Tidiam Gomis,1,0,Leipzig sub 73'
+R12,Real Madrid,87,for,Yan Diomande,1,0,sub 70'

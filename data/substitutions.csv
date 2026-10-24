@@ -1,0 +1,75 @@
+match_id,team,minute,player_on,player_off,reason
+B01,Barcelona,45,Pedri,Gavi,injury
+B01,Barcelona,65,Dani Olmo,Karim Adeyemi,tactical
+B01,Barcelona,65,Anthony Gordon,Lamine Yamal,tactical
+B01,Barcelona,80,Jules Kounde,Marc Bernal,tactical
+B01,Barcelona,80,Joao Cancelo,Raphinha,tactical
+B02,Barcelona,61,Rodri,unknown,tactical
+B02,Barcelona,85,Joao Cancelo,Pedri,tactical
+B03,Barcelona,64,Fermin Lopez,Marc Bernal,tactical
+B03,Barcelona,64,Rodri,Dani Olmo,tactical
+B03,Barcelona,77,Joao Cancelo,Anthony Gordon,tactical
+B03,Barcelona,77,Karim Adeyemi,Pedri,tactical
+B04,Barcelona,29,Jules Kounde,Eric Garcia,injury
+B04,Barcelona,62,Andreas Christensen,Pau Cubarsi,tactical
+B04,Barcelona,62,Karim Adeyemi,Anthony Gordon,tactical
+B04,Barcelona,62,Marc Bernal,Rodri,tactical
+B04,Barcelona,75,Dani Olmo,Fermin Lopez,tactical
+B04,Barcelona,81,Gabriel Jesus,Pedri,tactical
+B06,Barcelona,45,Andreas Christensen,Gerard Martin,injury
+B06,Barcelona,66,Dani Olmo,Lamine Yamal,tactical
+B06,Barcelona,66,Marc Bernal,Pedri,tactical
+B06,Barcelona,66,Karim Adeyemi,Anthony Gordon,tactical
+B06,Barcelona,80,Joao Cancelo,Xavi Espart,tactical
+B07,Barcelona,45,Wojciech Szczesny,Joan Garcia,injury
+B08,Barcelona,59,Gerard Martin,Andreas Christensen,tactical
+B08,Barcelona,76,Dani Olmo,Fermin Lopez,tactical
+B08,Barcelona,77,Karim Adeyemi,Raphinha,tactical
+B08,Barcelona,86,Marc Bernal,Pedri,tactical
+B08,Barcelona,86,Gabriel Jesus,unknown,tactical
+B10,Barcelona,58,Gabriel Jesus,Dani Olmo,tactical
+B10,Barcelona,58,Karim Adeyemi,Anthony Gordon,tactical
+B10,Barcelona,74,Jules Kounde,Eric Garcia,tactical
+B10,Barcelona,74,Marc Bernal,Pedri,tactical
+B10,Barcelona,80,Gavi,Fermin Lopez,tactical
+B11,Barcelona,46,Eric Garcia,Gerard Martin,tactical
+B11,Barcelona,61,Dani Olmo,Fermin Lopez,tactical
+B11,Barcelona,61,Anthony Gordon,Karim Adeyemi,tactical
+B11,Barcelona,69,Raphinha,Lamine Yamal,tactical
+B11,Barcelona,80,Gavi,Gabriel Jesus,tactical
+B12,Barcelona,25,Fermin Lopez,Dani Olmo,injury
+B12,Barcelona,60,Karim Adeyemi,Raphinha,tactical
+B12,Barcelona,60,Gavi,Pedri,tactical
+B12,Barcelona,60,Rodri,Marc Bernal,tactical
+B12,Barcelona,74,Alejandro Balde,Xavi Espart,injury
+R01,Real Madrid,64,Marc Cucurella,Alvaro Carreras,tactical
+R01,Real Madrid,64,Yan Diomande,Arda Guler,tactical
+R01,Real Madrid,80,Carlos Espi,Jude Bellingham,tactical
+R01,Real Madrid,80,Eduardo Camavinga,Bernardo Silva,tactical
+R01,Real Madrid,80,Trent Alexander-Arnold,Denzel Dumfries,tactical
+R02,Real Madrid,45,Marc Cucurella,Alvaro Carreras,tactical
+R02,Real Madrid,78,Brahim Diaz,Jude Bellingham,tactical
+R02,Real Madrid,78,Eduardo Camavinga,Arda Guler,tactical
+R02,Real Madrid,84,Yan Diomande,Vinicius Junior,tactical
+R03,Real Madrid,65,Yan Diomande,Brahim Diaz,tactical
+R03,Real Madrid,77,Bernardo Silva,Federico Valverde,tactical
+R03,Real Madrid,87,Arda Guler,Jude Bellingham,tactical
+R05,Real Madrid,79,Aurelien Tchouameni,Trent Alexander-Arnold,tactical
+R05,Real Madrid,79,Yan Diomande,Brahim Diaz,tactical
+R05,Real Madrid,87,Alvaro Carreras,Vinicius Junior,tactical
+R05,Real Madrid,93,Carlos Espi,Kylian Mbappe,tactical
+R06,Real Madrid,45,Eduardo Camavinga,Federico Valverde,tactical
+R06,Real Madrid,69,Aurelien Tchouameni,Bernardo Silva,tactical
+R06,Real Madrid,72,Arda Guler,Yan Diomande,tactical
+R06,Real Madrid,89,Marc Cucurella,Vinicius Junior,tactical
+R07,Real Madrid,84,Carlos Espi,unknown,tactical (minute approx: after Elche equaliser)
+R09,Real Madrid,46,Marc Cucurella,unknown,tactical
+R09,Real Madrid,46,Vinicius Junior,unknown,tactical (benched to start)
+R10,Real Madrid,59,Arda Guler,Vinicius Junior,tactical
+R10,Real Madrid,59,Endrick,Denzel Dumfries,tactical
+R10,Real Madrid,75,Carlos Espi,unknown,tactical (minute approx)
+R11,Real Madrid,85,Eder Militao,unknown,return from injury
+R12,Real Madrid,70,Marc Cucurella,Alvaro Carreras,tactical
+R12,Real Madrid,70,Yan Diomande,Vinicius Junior,tactical
+R12,Real Madrid,88,Carlos Espi,Kylian Mbappe,tactical
+R12,Real Madrid,88,Endrick,Jude Bellingham,tactical

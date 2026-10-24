@@ -1,0 +1,869 @@
+{
+  "league_avg_goals_per_team_game": 1.533,
+  "prior_test": {
+    "choice": {
+      "Barcelona": {
+        "k_prior": 0,
+        "half_life": 8,
+        "best_k_in_grid": 0,
+        "gain_vs_no_prior": 0.0,
+        "prior_used": false
+      },
+      "Real Madrid": {
+        "k_prior": 12,
+        "half_life": 4,
+        "best_k_in_grid": 38,
+        "gain_vs_no_prior": 0.654,
+        "prior_used": true
+      }
+    },
+    "loo_table": [
+      {
+        "team": "Barcelona",
+        "half_life": 4,
+        "k_prior_games": 0,
+        "loo_loglik": -38.892
+      },
+      {
+        "team": "Barcelona",
+        "half_life": 4,
+        "k_prior_games": 2,
+        "loo_loglik": -39.546
+      },
+      {
+        "team": "Barcelona",
+        "half_life": 4,
+        "k_prior_games": 4,
+        "loo_loglik": -40.165
+      },
+      {
+        "team": "Barcelona",
+        "half_life": 4,
+        "k_prior_games": 8,
+        "loo_loglik": -41.062
+      },
+      {
+        "team": "Barcelona",
+        "half_life": 4,
+        "k_prior_games": 12,
+        "loo_loglik": -41.642
+      },
+      {
+        "team": "Barcelona",
+        "half_life": 4,
+        "k_prior_games": 20,
+        "loo_loglik": -42.329
+      },
+      {
+        "team": "Barcelona",
+        "half_life": 4,
+        "k_prior_games": 38,
+        "loo_loglik": -43.018
+      },
+      {
+        "team": "Barcelona",
+        "half_life": 8,
+        "k_prior_games": 0,
+        "loo_loglik": -38.848
+      },
+      {
+        "team": "Barcelona",
+        "half_life": 8,
+        "k_prior_games": 2,
+        "loo_loglik": -39.323
+      },
+      {
+        "team": "Barcelona",
+        "half_life": 8,
+        "k_prior_games": 4,
+        "loo_loglik": -39.798
+      },
+      {
+        "team": "Barcelona",
+        "half_life": 8,
+        "k_prior_games": 8,
+        "loo_loglik": -40.571
+      },
+      {
+        "team": "Barcelona",
+        "half_life": 8,
+        "k_prior_games": 12,
+        "loo_loglik": -41.13
+      },
+      {
+        "team": "Barcelona",
+        "half_life": 8,
+        "k_prior_games": 20,
+        "loo_loglik": -41.858
+      },
+      {
+        "team": "Barcelona",
+        "half_life": 8,
+        "k_prior_games": 38,
+        "loo_loglik": -42.664
+      },
+      {
+        "team": "Barcelona",
+        "half_life": "none",
+        "k_prior_games": 0,
+        "loo_loglik": -38.978
+      },
+      {
+        "team": "Barcelona",
+        "half_life": "none",
+        "k_prior_games": 2,
+        "loo_loglik": -39.265
+      },
+      {
+        "team": "Barcelona",
+        "half_life": "none",
+        "k_prior_games": 4,
+        "loo_loglik": -39.57
+      },
+      {
+        "team": "Barcelona",
+        "half_life": "none",
+        "k_prior_games": 8,
+        "loo_loglik": -40.131
+      },
+      {
+        "team": "Barcelona",
+        "half_life": "none",
+        "k_prior_games": 12,
+        "loo_loglik": -40.595
+      },
+      {
+        "team": "Barcelona",
+        "half_life": "none",
+        "k_prior_games": 20,
+        "loo_loglik": -41.281
+      },
+      {
+        "team": "Barcelona",
+        "half_life": "none",
+        "k_prior_games": 38,
+        "loo_loglik": -42.161
+      },
+      {
+        "team": "Real Madrid",
+        "half_life": 4,
+        "k_prior_games": 0,
+        "loo_loglik": -36.304
+      },
+      {
+        "team": "Real Madrid",
+        "half_life": 4,
+        "k_prior_games": 2,
+        "loo_loglik": -35.897
+      },
+      {
+        "team": "Real Madrid",
+        "half_life": 4,
+        "k_prior_games": 4,
+        "loo_loglik": -35.725
+      },
+      {
+        "team": "Real Madrid",
+        "half_life": 4,
+        "k_prior_games": 8,
+        "loo_loglik": -35.587
+      },
+      {
+        "team": "Real Madrid",
+        "half_life": 4,
+        "k_prior_games": 12,
+        "loo_loglik": -35.536
+      },
+      {
+        "team": "Real Madrid",
+        "half_life": 4,
+        "k_prior_games": 20,
+        "loo_loglik": -35.502
+      },
+      {
+        "team": "Real Madrid",
+        "half_life": 4,
+        "k_prior_games": 38,
+        "loo_loglik": -35.487
+      },
+      {
+        "team": "Real Madrid",
+        "half_life": 8,
+        "k_prior_games": 0,
+        "loo_loglik": -36.253
+      },
+      {
+        "team": "Real Madrid",
+        "half_life": 8,
+        "k_prior_games": 2,
+        "loo_loglik": -35.981
+      },
+      {
+        "team": "Real Madrid",
+        "half_life": 8,
+        "k_prior_games": 4,
+        "loo_loglik": -35.835
+      },
+      {
+        "team": "Real Madrid",
+        "half_life": 8,
+        "k_prior_games": 8,
+        "loo_loglik": -35.689
+      },
+      {
+        "team": "Real Madrid",
+        "half_life": 8,
+        "k_prior_games": 12,
+        "loo_loglik": -35.622
+      },
+      {
+        "team": "Real Madrid",
+        "half_life": 8,
+        "k_prior_games": 20,
+        "loo_loglik": -35.562
+      },
+      {
+        "team": "Real Madrid",
+        "half_life": 8,
+        "k_prior_games": 38,
+        "loo_loglik": -35.522
+      },
+      {
+        "team": "Real Madrid",
+        "half_life": "none",
+        "k_prior_games": 0,
+        "loo_loglik": -36.19
+      },
+      {
+        "team": "Real Madrid",
+        "half_life": "none",
+        "k_prior_games": 2,
+        "loo_loglik": -36.031
+      },
+      {
+        "team": "Real Madrid",
+        "half_life": "none",
+        "k_prior_games": 4,
+        "loo_loglik": -35.925
+      },
+      {
+        "team": "Real Madrid",
+        "half_life": "none",
+        "k_prior_games": 8,
+        "loo_loglik": -35.796
+      },
+      {
+        "team": "Real Madrid",
+        "half_life": "none",
+        "k_prior_games": 12,
+        "loo_loglik": -35.722
+      },
+      {
+        "team": "Real Madrid",
+        "half_life": "none",
+        "k_prior_games": 20,
+        "loo_loglik": -35.643
+      },
+      {
+        "team": "Real Madrid",
+        "half_life": "none",
+        "k_prior_games": 38,
+        "loo_loglik": -35.575
+      }
+    ]
+  },
+  "rating_backtest": {
+    "brier_model": 0.209,
+    "brier_naive": 0.496,
+    "detail": [
+      {
+        "match": "B01",
+        "opp": "Elche",
+        "p_win": 0.72,
+        "result": "5-0"
+      },
+      {
+        "match": "B02",
+        "opp": "Athletic Club",
+        "p_win": 0.85,
+        "result": "2-0"
+      },
+      {
+        "match": "B03",
+        "opp": "Rayo Vallecano",
+        "p_win": 0.907,
+        "result": "5-2"
+      },
+      {
+        "match": "B04",
+        "opp": "Valencia",
+        "p_win": 0.736,
+        "result": "5-0"
+      },
+      {
+        "match": "B05",
+        "opp": "Feyenoord",
+        "p_win": 0.909,
+        "result": "5-1"
+      },
+      {
+        "match": "B06",
+        "opp": "Levante",
+        "p_win": 0.742,
+        "result": "4-2"
+      },
+      {
+        "match": "B07",
+        "opp": "Racing Santander",
+        "p_win": 0.928,
+        "result": "7-2"
+      },
+      {
+        "match": "B08",
+        "opp": "Sevilla",
+        "p_win": 0.736,
+        "result": "3-1"
+      },
+      {
+        "match": "B09",
+        "opp": "Getafe",
+        "p_win": 0.876,
+        "result": "3-0"
+      },
+      {
+        "match": "B10",
+        "opp": "Galatasaray",
+        "p_win": 0.697,
+        "result": "4-1"
+      },
+      {
+        "match": "B11",
+        "opp": "Real Betis",
+        "p_win": 0.631,
+        "result": "5-2"
+      },
+      {
+        "match": "B12",
+        "opp": "Paris Saint-Germain",
+        "p_win": 0.503,
+        "result": "2-4"
+      },
+      {
+        "match": "R01",
+        "opp": "Espanyol",
+        "p_win": 0.562,
+        "result": "2-1"
+      },
+      {
+        "match": "R02",
+        "opp": "Real Sociedad",
+        "p_win": 0.745,
+        "result": "4-1"
+      },
+      {
+        "match": "R03",
+        "opp": "Malaga",
+        "p_win": 0.821,
+        "result": "4-0"
+      },
+      {
+        "match": "R04",
+        "opp": "Real Betis",
+        "p_win": 0.582,
+        "result": "0-1"
+      },
+      {
+        "match": "R05",
+        "opp": "Inter",
+        "p_win": 0.537,
+        "result": "2-1"
+      },
+      {
+        "match": "R06",
+        "opp": "Rayo Vallecano",
+        "p_win": 0.798,
+        "result": "4-1"
+      },
+      {
+        "match": "R07",
+        "opp": "Elche",
+        "p_win": 0.649,
+        "result": "3-2"
+      },
+      {
+        "match": "R08",
+        "opp": "Atletico Madrid",
+        "p_win": 0.432,
+        "result": "1-2"
+      },
+      {
+        "match": "R09",
+        "opp": "Villarreal",
+        "p_win": 0.757,
+        "result": "1-0"
+      },
+      {
+        "match": "R10",
+        "opp": "Roma",
+        "p_win": 0.489,
+        "result": "4-3"
+      },
+      {
+        "match": "R11",
+        "opp": "Sevilla",
+        "p_win": 0.746,
+        "result": "4-1"
+      },
+      {
+        "match": "R12",
+        "opp": "RB Leipzig",
+        "p_win": 0.726,
+        "result": "4-1"
+      }
+    ]
+  },
+  "ratings": {
+    "Barcelona": {
+      "att": 2.427,
+      "dfn": 0.797
+    },
+    "Real_Madrid": {
+      "att": 1.599,
+      "dfn": 0.705
+    }
+  },
+  "xg_adjustment": {
+    "Barcelona": {
+      "att": 0.8591218375702425,
+      "dfn": 0.9296714352202682
+    },
+    "Real Madrid": {
+      "att": 0.9109839553863781,
+      "dfn": 1.102534201213177
+    }
+  },
+  "lambdas": {
+    "Barcelona": 2.985,
+    "Real_Madrid": 1.747,
+    "total": 4.733
+  },
+  "timing": {
+    "Barcelona": {
+      "for_counts": [
+        7,
+        8,
+        6,
+        9,
+        8,
+        12
+      ],
+      "against_counts": [
+        1,
+        4,
+        1,
+        3,
+        1,
+        5
+      ]
+    },
+    "Real Madrid": {
+      "for_counts": [
+        3,
+        8,
+        5,
+        3,
+        2,
+        12
+      ],
+      "against_counts": [
+        0,
+        2,
+        1,
+        5,
+        1,
+        5
+      ]
+    }
+  },
+  "profiles": {
+    "Barcelona": {
+      "score": [
+        0.138,
+        0.158,
+        0.142,
+        0.172,
+        0.164,
+        0.225
+      ],
+      "concede": [
+        0.112,
+        0.192,
+        0.142,
+        0.173,
+        0.136,
+        0.244
+      ]
+    },
+    "Real Madrid": {
+      "score": [
+        0.112,
+        0.201,
+        0.165,
+        0.124,
+        0.113,
+        0.286
+      ],
+      "concede": [
+        0.092,
+        0.151,
+        0.145,
+        0.223,
+        0.139,
+        0.25
+      ]
+    }
+  },
+  "game_states": {
+    "Barcelona": {
+      "leading": {
+        "minutes": 834,
+        "gf": 33,
+        "ga": 8,
+        "gf_per90": 3.56,
+        "ga_per90": 0.86
+      },
+      "level": {
+        "minutes": 255,
+        "gf": 12,
+        "ga": 6,
+        "gf_per90": 4.24,
+        "ga_per90": 2.12
+      },
+      "trailing": {
+        "minutes": 63,
+        "gf": 5,
+        "ga": 1,
+        "gf_per90": 7.14,
+        "ga_per90": 1.43
+      }
+    },
+    "Real Madrid": {
+      "leading": {
+        "minutes": 527,
+        "gf": 16,
+        "ga": 8,
+        "gf_per90": 2.73,
+        "ga_per90": 1.37
+      },
+      "level": {
+        "minutes": 526,
+        "gf": 13,
+        "ga": 4,
+        "gf_per90": 2.22,
+        "ga_per90": 0.68
+      },
+      "trailing": {
+        "minutes": 99,
+        "gf": 4,
+        "ga": 2,
+        "gf_per90": 3.64,
+        "ga_per90": 1.82
+      }
+    }
+  },
+  "state_multipliers": {
+    "Barcelona": {
+      "leading": 0.915,
+      "level": 1.03,
+      "trailing": 1.207
+    },
+    "Real Madrid": {
+      "leading": 0.995,
+      "level": 0.926,
+      "trailing": 1.172
+    }
+  },
+  "responses": {
+    "Barcelona": {
+      "goals_conceded": 15,
+      "answered": 13,
+      "answered_within_15": 12,
+      "median_minutes_to_reply": 10.0
+    },
+    "Real Madrid": {
+      "goals_conceded": 14,
+      "answered": 12,
+      "answered_within_15": 4,
+      "median_minutes_to_reply": 22.5
+    }
+  },
+  "momentum": {
+    "pairs": 42,
+    "same_side": 23,
+    "other_side": 19,
+    "expected_same_share": 0.616,
+    "observed_same_share": 0.548,
+    "momentum_multiplier": 1.0
+  },
+  "bench": {
+    "Barcelona": {
+      "goals": 50,
+      "bench_goals": 4,
+      "bench_share": 0.08,
+      "goals_76_plus": 12,
+      "share_76_plus": 0.24,
+      "per90_min1_60": 3.75,
+      "per90_min61_end": 4.17,
+      "median_first_tactical_sub": 61.0
+    },
+    "Real Madrid": {
+      "goals": 33,
+      "bench_goals": 6,
+      "bench_share": 0.182,
+      "goals_76_plus": 12,
+      "share_76_plus": 0.364,
+      "per90_min1_60": 2.38,
+      "per90_min61_end": 2.92,
+      "median_first_tactical_sub": 64.0
+    }
+  },
+  "model": {
+    "p": [
+      0.6478,
+      0.1942,
+      0.1581
+    ],
+    "mean_goals": [
+      2.993,
+      1.74
+    ],
+    "over_2_5": 0.853,
+    "over_3_5": 0.7,
+    "over_4_5": 0.512,
+    "btts": 0.813,
+    "top_scores": [
+      [
+        "2-1",
+        0.0789
+      ],
+      [
+        "3-1",
+        0.0737
+      ],
+      [
+        "3-2",
+        0.0727
+      ],
+      [
+        "2-2",
+        0.0713
+      ],
+      [
+        "1-1",
+        0.0515
+      ],
+      [
+        "4-1",
+        0.0501
+      ],
+      [
+        "4-2",
+        0.0489
+      ],
+      [
+        "3-3",
+        0.0432
+      ],
+      [
+        "2-0",
+        0.0394
+      ],
+      [
+        "3-0",
+        0.0367
+      ]
+    ],
+    "first_goal": {
+      "p_bar_first": 0.651,
+      "p_rma_first": 0.34,
+      "p_no_goal": 0.009,
+      "median_first_goal_minute": 19.0
+    },
+    "conditional_on_first_goal": {
+      "if_bar_score_first": [
+        0.768,
+        0.153,
+        0.079
+      ],
+      "if_rma_score_first": [
+        0.435,
+        0.251,
+        0.314
+      ]
+    },
+    "p_red_any": 0.182,
+    "ht_ft": {
+      "-1": {
+        "-1": 0.0856,
+        "0": 0.0522,
+        "1": 0.0203
+      },
+      "0": {
+        "-1": 0.0533,
+        "0": 0.086,
+        "1": 0.0548
+      },
+      "1": {
+        "-1": 0.063,
+        "0": 0.188,
+        "1": 0.3967
+      }
+    },
+    "expected_goals_by_bin": {
+      "Barcelona": [
+        0.3436284047844514,
+        0.4686708557910894,
+        0.38482839712990136,
+        0.6408939533405185,
+        0.44961482820664567,
+        0.7074804404209445
+      ],
+      "Real_Madrid": [
+        0.17991958841758693,
+        0.33338005762168477,
+        0.23550554039832197,
+        0.2916757985671367,
+        0.22242138270613665,
+        0.47868842340784173
+      ]
+    }
+  },
+  "market": {
+    "p": [
+      0.5913,
+      0.1643,
+      0.2443
+    ],
+    "n_sources": 5
+  },
+  "other_models": [
+    {
+      "source": "Opta supercomputer",
+      "p_bar": 0.544,
+      "p_draw": 0.195,
+      "p_rma": 0.261
+    },
+    {
+      "source": "TWSN simulation",
+      "p_bar": 0.56,
+      "p_draw": 0.192,
+      "p_rma": 0.248
+    },
+    {
+      "source": "footballdream goals model",
+      "p_bar": 0.66,
+      "p_draw": 0.16,
+      "p_rma": 0.18
+    }
+  ],
+  "pundits": {
+    "p": [
+      0.5375,
+      0.2406,
+      0.2219
+    ],
+    "tally": {
+      "BAR": 12,
+      "DRAW": 3,
+      "BAR (lean)": 1,
+      "NO PICK": 1
+    },
+    "avg_total_goals_predicted": 4.6
+  },
+  "weights": {
+    "model": 0.4,
+    "market": 0.5,
+    "pundits": 0.1
+  },
+  "final": [
+    0.6085,
+    0.1839,
+    0.2076
+  ],
+  "market_implied_lambdas": [
+    2.756,
+    1.766
+  ],
+  "sensitivity": [
+    {
+      "case": "Base form model",
+      "lb": 2.99,
+      "lm": 1.75,
+      "p": [
+        0.63,
+        0.163,
+        0.207
+      ]
+    },
+    {
+      "case": "Force 12-game last-season priors on both",
+      "lb": 2.36,
+      "lm": 1.56,
+      "p": [
+        0.554,
+        0.195,
+        0.251
+      ]
+    },
+    {
+      "case": "Elite-matchup dampener 0.85 on both",
+      "lb": 2.54,
+      "lm": 1.49,
+      "p": [
+        0.604,
+        0.183,
+        0.213
+      ]
+    },
+    {
+      "case": "Barca defence crisis worse (x1.15)",
+      "lb": 2.99,
+      "lm": 1.9,
+      "p": [
+        0.602,
+        0.167,
+        0.231
+      ]
+    },
+    {
+      "case": "No home advantage (neutral)",
+      "lb": 2.6,
+      "lm": 2.01,
+      "p": [
+        0.512,
+        0.186,
+        0.302
+      ]
+    },
+    {
+      "case": "Raw goals only (no xG correction)",
+      "lb": 3.15,
+      "lm": 2.06,
+      "p": [
+        0.599,
+        0.162,
+        0.239
+      ]
+    },
+    {
+      "case": "Market-implied rates",
+      "lb": 2.76,
+      "lm": 1.77,
+      "p": [
+        0.587,
+        0.176,
+        0.237
+      ]
+    }
+  ]
+}

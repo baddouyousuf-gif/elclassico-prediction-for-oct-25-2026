@@ -1,0 +1,9 @@
+source,type,p_bar,p_draw,p_rma,raw,as_of,url
+Polymarket,prediction market,0.595,0.155,0.245,"60c / 16c / 25c; $517K volume",2026-10-24,https://cryptoslate.com/predictions/market/barcelona-vs-real-madrid-el-clasico-october-25-2026/
+Kalshi,prediction market,0.60,0.16,0.26,implied %,2026-10-23,https://www.covers.com/soccer/barcelona-vs-real-madrid-predictions-picks-oct-25-2026
+DraftKings,sportsbook,,,,"-170 / +425 / +310",2026-10-23,https://www.rotowire.com/soccer/article/barcelona-vs-real-madrid-prediction-predicted-lineups-team-news-el-clasico-142801
+FanDuel,sportsbook,,,,"-185 / +490 / +290",2026-10-23,https://www.rotowire.com/soccer/article/barcelona-vs-real-madrid-prediction-predicted-lineups-team-news-el-clasico-142801
+bet365,sportsbook,,,,"-154 / +450 / +275",2026-10-23,https://www.rotowire.com/soccer/article/barcelona-vs-real-madrid-prediction-predicted-lineups-team-news-el-clasico-142801
+Opta supercomputer,model,0.544,0.195,0.261,10k sims,2026-10-23,https://theanalyst.com/articles/barcelona-vs-real-madrid-prediction-la-liga-el-clasico-preview-10-2026
+TWSN simulation,model,0.56,0.192,0.248,,2026-10-23,https://twsn.net/2026/10/23/barcelona-vs-real-madrid-prediction-el-clasico-score-lineups-and-key-battles
+footballdream goals model,model,0.66,0.16,0.18,season goals only,2026-10-21,https://www.footballdream.in/blog/barcelona-vs-real-madrid-matchday-10-la-liga-2026-27
