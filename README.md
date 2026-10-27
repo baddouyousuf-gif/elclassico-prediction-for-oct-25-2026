@@ -1,24 +1,60 @@
 # El Clásico Forecast: Barcelona vs Real Madrid
 
-**LaLiga Matchday 10 · Spotify Camp Nou · Sunday 25 October 2026**
+**LaLiga Matchday 10 · Spotify Camp Nou · Sunday 25 October 2026 · Result: Barcelona 1-2 Real Madrid**
 
-A fun side project that borrows the toolkit from my [Canadian exporter credit-risk engine](https://github.com/baddouyousuf-gif/canadian-exporter-credit-risk) (structural model, Bayesian shrinkage, stress overlays, Monte Carlo, model-vs-market comparison) and points it at football's biggest fixture.
+A fun side project applying statistical modelling (Poisson goal models, Bayesian shrinkage, cross-validation, Monte Carlo simulation and model-vs-market comparison) to football's biggest fixture.
 
-> 📄 **Full interactive report:** open [`El_Clasico_Forecast_Report.html`](El_Clasico_Forecast_Report.html) in a browser (or via GitHub Pages: *add your Pages link here*).
+> **Full report:** download [`El_Clasico_Forecast_Report.html`](El_Clasico_Forecast_Report.html) and open it in a browser.
 
 ---
 
-## The prediction
+## Post-match review: Barcelona 1-2 Real Madrid
 
-| | 🔵🔴 Barça | Draw | ⚪ Madrid |
+**Final score:** Mbappé 41' · Raphinha 61' · Mbappé 87'. My team won, and my model lost.
+
+### How the forecasts scored
+| Forecast | Chance it gave Madrid | Brier score (lower = better) |
+|---|:-:|:-:|
+| Opta supercomputer | 26% | **0.88** |
+| Betting markets | 24% | 0.95 |
+| **My final blend** | **20%** | 1.07 |
+| My model on its own | 13% | 1.26 |
+
+My model was the most confident forecast for Barça, so it scored worst. Blending it with the market pulled it back part of the way. A 20% outcome happens one time in five, so one match can't validate or kill a model. The *direction* of the miss is still worth learning from.
+
+### What the model got right
+- **Madrid are a late team.** The winner came at **87'**, from a Camavinga cut-back, inside the late window the timing analysis flagged (36% of Madrid's goals come after the 75th minute).
+- **Mourinho's game plan.** Madrid had 37% of the ball and won on a counter-attack. That's the low-block, counter-attacking style of his 2025-26 Benfica, the only last-season data that passed leave-one-out cross-validation.
+- **Both teams scored** (model: 82%) and the game went **over 2.5 goals** (model: 88%).
+- **Madrid scoring first makes it close.** The model said an early Madrid goal would drop Barça to 49%. Madrid scored first and went on to win.
+
+### What it got wrong
+- **Barça's attack.** The model expected **3.2** Barça goals; they scored **1** from 16 shots (6 on target).
+- **The goalkeeper adjustment backfired.** I weakened Madrid's defence when Courtois withdrew with flu, and Lunin was one of the best players on the pitch.
+- **Too many goals.** The model expected about 5 goals and there were 3. The exact 1-2 score was only the 16th most likely scoreline (about 3%).
+
+### The lesson
+The model built Barça's attack rating mostly from big wins over weaker teams (5-0, 7-2, 5-2) and assumed that scoring rate would carry over against an elite opponent. It didn't. Against the two strongest sides they've faced this season, PSG and Madrid, Barça scored 2 and 1.
+
+The sensitivity analysis already showed that an **"elite-matchup dampener"** brings the forecast closer to the market. In the next version that adjustment goes into the base model, ideally estimated from games between top teams instead of set by hand.
+
+> *The pre-match forecast below is left exactly as it was published, so the record stays honest.*
+
+---
+
+## The prediction (pre-match)
+
+> **Updated 25 Oct, 3:10 p.m. (Ottawa) with the confirmed line-ups.** The big late change: **Courtois is out with flu and Lunin starts in goal for Madrid.** That nudged Barça from 61% to 63%.
+
+| | Barça | Draw | Madrid |
 |---|:---:|:---:|:---:|
-| **Final forecast** | **61%** | **18%** | **21%** |
-| My model (form + minute-by-minute simulation) | 65% | 19% | 16% |
+| **Final forecast** | **63%** | **18%** | **20%** |
+| My model (form + minute-by-minute simulation) | 69% | 18% | 13% |
 | Betting markets (5 sources, margin removed) | 59% | 16% | 24% |
 | Pundits (16 published picks) | 54% | 24% | 22% |
 | *Opta supercomputer (for reference)* | *54%* | *20%* | *26%* |
 
-**Expected goals:** Barça 3.0, Madrid 1.7 · **Most likely score:** 2-1 (8%), then 3-1, 3-2, 2-2 · **Over 2.5 goals:** 85% · **Both teams score:** 81%
+**Expected goals:** Barça 3.2, Madrid 1.7 · **Most likely scores:** 3-1, 3-2 and 2-1 (about 7% each), then 2-2 · **Over 2.5 goals:** 88% · **Both teams score:** 82%
 
 ![Model vs market vs pundits](outputs/charts/06_ensemble.png)
 
@@ -28,7 +64,7 @@ A fun side project that borrows the toolkit from my [Canadian exporter credit-ri
 
 Numbers only go so far, so I spent most of the research time on context: match reports, press conferences, injury news and pundit analysis from ESPN, CBS Golazo, Opta/The Analyst, Sports Mole, Goal, SI and others.
 
-### 🔵🔴 Barcelona (Hansi Flick): a scoring machine with a back four held together by tape
+### Barcelona (Hansi Flick): a scoring machine with a back four held together by tape
 - **9 wins from 9 in LaLiga** with 39 goals, the second-best start in league history. They've scored 50 goals in 12 games across all competitions.
 - **Raphinha** leads LaLiga with 12 league goals. **Lamine Yamal** has 8 goals and 6 assists, and more goal involvements since 31 August than anyone in Europe's top five leagues.
 - They keep about 70% of the ball and play a very high defensive line.
@@ -36,7 +72,7 @@ Numbers only go so far, so I spent most of the research time on context: match r
 - They lost 4-2 at PSG on Tuesday after giving up two goals in the last 10 minutes. Flick: *"We have to defend better than we did in Paris."*
 - Rodri was rested for that game with the Clásico in mind.
 
-### ⚪ Real Madrid (José Mourinho): pragmatic, dangerous late, and without Vinícius
+### Real Madrid (José Mourinho): pragmatic, dangerous late, and without Vinícius
 - **Four straight wins and 12 goals in the last three**, including a comeback from 3-1 down to win 4-3 at Roma.
 - **Mbappé** has 12 goals this season, and 12 in his 10 career games against Barça.
 - **Shape:** a 4-2-3-1 built to counter. The plan is to hit Barça's high line with balls in behind for Mbappé, with **Yan Diomande** (3 goals in his last 4 games) attacking the left channel.
@@ -44,7 +80,7 @@ Numbers only go so far, so I spent most of the research time on context: match r
 - **The Vinícius situation.** Mourinho benched him against Villarreal to "protect" him after a slow start (1 goal, 3 assists in 11 games). He came on at half-time, had a goal disallowed for pulling an opponent's hair, and was sent off. He's now serving a **4-match ban** and misses this game.
 - **Weaknesses:** no away clean sheet this season, and no clean sheet in their last **12** Clásicos.
 
-### What the experts say (Pundits)
+### What the experts say
 - **13 of 16 pundits pick Barça, 3 pick a draw, and none pick Madrid.**
 - **Troy Deeney (CBS Golazo):** *"It is impossible for them to beat Barcelona... a team full of individuals against the best team."*
 - **Jamie Carragher:** says Madrid *"could well lose to Barcelona and then lose the La Liga title."*
@@ -101,11 +137,11 @@ The simulation can be started from any minute and any score, which turns it into
 
 ![Comeback windows](outputs/charts/04_comeback_windows.png)
 
-- **0-0 at half-time:** Barça still win 59% of the time.
-- **0-0 after 75 minutes:** a draw becomes the most likely result (43%).
-- **Madrid 1-0 up:** they only become favourites if they hold the lead until about **70 minutes**. That's the window Mourinho has to survive.
-- **Barça 1-0 up:** close to decisive at almost any minute (about 76-83%).
-- **The first goal is huge.** If Barça score first they win 77%; if Madrid score first it's close to even (44 / 25 / 31).
+- **0-0 at half-time:** Barça still win 62% of the time.
+- **0-0 after 75 minutes:** a draw is as likely as a Barça win (about 42% each).
+- **Madrid 1-0 up:** they only become favourites if they hold the lead until about **75 minutes**. That's the window Mourinho has to survive.
+- **Barça 1-0 up:** close to decisive at almost any minute (about 78-81%).
+- **The first goal is huge.** If Barça score first they win 80%; even if Madrid score first, Barça are still slight favourites (49 / 24 / 27).
 
 ---
 
@@ -120,17 +156,17 @@ flowchart LR
   D -->|Mourinho's Benfica: yes| E
   E --> F[Minute-by-minute<br/>Monte Carlo x100k]
   F --> G[Blend with markets<br/>& pundits]
-  G --> H[61 / 18 / 21]
+  G --> H[63 / 18 / 20]
 ```
 
-| Step | What it does | Credit-risk analogy |
-|---|---|---|
-| Ratings | Goals scored and conceded, adjusted for opponent strength and home/away, with recent games weighted more heavily | Obligor scoring |
-| xG correction | Pulls goals back toward expected goals (Barça are outscoring their xG) | Filtering out noise |
-| Prior test | Only uses last season if it improves **leave-one-out** predictions | Out-of-sample validation |
-| Availability shocks | Barça's defence weakened ×1.06, Madrid's attack ×0.97 (no Vinícius), etc. | Stress overlays |
-| Minute-by-minute simulation | Timing profiles, game state, red cards, 100,000 runs | Path-dependent Monte Carlo |
-| Blend | 50% market, 40% model, 10% pundits | Model PD vs market-implied PD |
+| Step | What it does |
+|---|---|
+| Ratings | Goals scored and conceded, adjusted for opponent strength and home/away, with recent games weighted more heavily |
+| xG correction | Pulls goals back toward expected goals (Barça are outscoring their xG) |
+| Prior test | Only uses last season if it improves **leave-one-out** predictions |
+| Availability shocks | Barça's defence weakened ×1.06, Madrid's attack ×0.97 (no Vinícius), etc. |
+| Minute-by-minute simulation | Timing profiles, game state, red cards, 100,000 runs |
+| Blend | 50% market, 40% model, 10% pundits |
 
 **Did last season help?** Each match this season was predicted from the other 23 games, both with and without last season's data:
 - **Flick's 2025-26 Barça made the predictions worse**, so it was dropped. This season's team is simply better.
